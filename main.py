@@ -1,16 +1,24 @@
-# This is a sample Python script.
+def main():
+    print("\n--- Gestor de Tareas Inteligente ---")
+    print("1. Añadir tarea")
+    print("2. Añadir tarea compleja (con IA)")
+    print("3. Listar tareas")
+    print("4. Completar tarea")
+    print("5. Eliminar tarea")
+    print("6. Salir")
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    choice = input("Elige una opción")
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    match choice:
+        case "1":
+            pass
+        case "2":
+            pass
+        case "3":
+            pass
+        case "4":
+            pass
+        case "5":
+            pass
+        case _:
+            print("Opción no válida. Selecciona otra.")
