@@ -9,7 +9,7 @@ class Task:
         self.completed = completed
 
     def __str__(self):
-        status = "✓" if self.completed else " "
+        status = "X" if self.completed else " "
         return f"[{status}] #{self.id}: {self.description}"
 
 
